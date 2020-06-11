@@ -1,0 +1,14 @@
+
+<div class="container">
+  
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQHTMGS2N70uvcQ0A8S5X3iZbNyldpm5ymYml2_ZJn1wfomaBak&usqp=CAUg" alt="" >
+   
+ <form action="/action_page.php">
+    <label for="fname">user name:</label><br>
+    <input type="text" id="fname" name="fname" [(ngModel)]="username"><br>
+    <label for="lname">password:</label><br>
+    <input type="password" id="lname" name="lname" [(ngModel)]="password"><br><br>
+    <input type="submit" (click)="checklogin()">
+  </form> 
+  <div [style.color]="colors" >{{msg}}</div>
+</div>

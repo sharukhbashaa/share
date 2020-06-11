@@ -1,0 +1,50 @@
+.container {
+    
+    margin: 133px auto;
+    border: 1px solid black;
+    box-shadow: 1px 7px 35px black;
+    height: 500px;
+    width: 500px;
+    border-radius: 27px;
+}
+img{
+    border-radius: 71%;
+    height: 237px;
+    width: 243px;
+    margin-left: 131px;
+    margin-top: 47px;
+}
+
+input[type=text], input[type=password] {
+    width: 38%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 28% 28%;
+    background: gainsboro;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  input[type=submit]:hover {
+      background-color:skyblue;
+
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 17px 26px;
+    margin: -14px 0;
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+   
+  }
+  
+form {
+    text-align: center;
+}
