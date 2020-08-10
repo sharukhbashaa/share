@@ -1,0 +1,48 @@
+ .recipt {
+            border: 3px solid #1b3280;
+    margin-top: 82px;
+    font-size: 26px;
+    font-family: cursive;
+    text-align: center;
+
+    justify-content: center;
+    
+    width: 340px;
+    margin-left: 84px;
+    height: 125px;
+    background: #4388cc;
+        }
+
+        .table {
+            height: 143px;
+            width: 179px;
+            border-radius: 53%;
+            background: #4388cc;
+            border: 3px solid #1b3280;
+            margin-top: -129px;
+            margin-left: 932px;
+        } 
+        .table:hover {
+            background: silver;
+            border: 3px solid black;
+        }
+
+        .chair {
+            height: 45px;
+            width: 41px;
+            /* border-radius: 53%; */
+            background: #4388cc;
+            border: 3px solid #1b3280;
+
+
+        }
+        span{
+            margin-top: 43px;
+    position: absolute;
+    margin-left: -159px;
+        }
+        .name{
+            font-size: 23px;
+    margin-left: 62px;
+    font-family: cursive;
+        }

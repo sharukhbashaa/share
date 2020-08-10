@@ -1,0 +1,17 @@
+button {
+    border: 1px solid black;
+background-color: silver;
+
+margin-left: 55px;
+margin-top: 59px;
+padding: 15px;
+font-size: 19px;
+
+font-family: cursive;
+}
+input{margin-left: 92px;}
+label{font-size: 24px;
+font-family: cursive;}
+form {
+margin-top: 51px;
+}

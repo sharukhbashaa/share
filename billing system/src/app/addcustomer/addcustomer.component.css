@@ -1,0 +1,24 @@
+ input{
+            width: 338px;
+    height: 42px;
+    font-family: cursive;
+    font-size: 20px;
+    border: 2px solid black;
+        }
+        form {
+            margin-top: 84px;
+    margin-left: 49px;
+        }
+    ::placeholder {
+        color: black;
+    }
+    hr{
+        background: black;
+    /* width: 19px; */
+    height: 1px
+    }
+    label{
+        font-size: 23px;
+    /* font-weight: bold; */
+    font-family: cursive;
+    }

@@ -1,0 +1,40 @@
+
+
+<div class="grid-container" *ngIf="l">
+  <div class="item1" style="padding: 15px;"> <button class="button">Takeaway menu</button></div>
+
+  <div class="item2"><div class="list">
+    <button style="  width: 133px">Drinks</button>
+    <button style="  width: 133px">Mains</button>
+    <button style="  width: 133px">Starters</button>
+  </div></div>
+  <div class="item3" style="width: 521px;">
+    <div class="list" style="flex-direction: row;
+    
+    justify-content: space-around;">
+      <button style="  width: 133px"(click)="dd()">Chips - £1.00</button>
+        <button style="  width: 133px"(click)="dd2()">Soda - £2.00</button>
+        <button style="  width: 133px"(click)="dd3()">Garlic bread -£1</button>
+      </div>
+      <div style="margin-right: 216px;
+      display: flex;
+      justify-content: space-evenly;
+  ">
+        <button style="      width: 133px;
+        margin-left: -13px;" (click)="dd4()">Pizza - £3.00</button>
+        <button style=" width: 133px;
+        margin-right: -56px;" (click)="dd5()">Pizza - £5.00</button>
+      </div>
+     
+  </div>  
+  <div class="item4" style="width: 263px;
+  margin-left: -127px;"><div   *ngFor="let obj of data ;let i=index;">{{obj.name}}</div><button class="button" style="margin-left: -14px;
+    margin-top: 121px;
+    position: absolute;
+    font-size: 18px;"(click)="section()">Complete order</button></div>
+   <div class="item6" style="width: 94px;
+   margin-left: -47px;" ></div>
+
+  <div class="item5"style="padding: 15px;">bottom</div>
+</div>
+<router-outlet></router-outlet>
