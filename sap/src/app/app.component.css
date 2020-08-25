@@ -1,0 +1,67 @@
+.containers {
+    
+    margin: 32px auto;
+    border: 2px solid black;
+ 
+    height: 400px;
+    max-width: 500px;
+   
+    background:white;
+}
+
+
+label {
+    font-size: 12px;
+}
+ 
+ .d-flex {
+    gap: 10px;
+  }
+  
+  
+  
+  html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  select,input {
+      border: 2px solid black;
+  }
+.title {
+    MARGIN-TOP: 31PX;
+    FONT-SIZE: 37px;
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+  button {
+    box-shadow: 5px 2px black;
+    background: silver;
+   border: 2px solid black;
+   margin-top: -22px;
+  }
+  button:focus{
+   
+        box-shadow: 5px 2px black;
+       
+      
+  }
+  select {
+   
+    background: url("/assets/images/selectlog.png") no-repeat ;
+    -webkit-appearance: none;
+    background-position-x: right;
+    background-size: 26px;
+    background-color: white;
+}
+
+
+  
+ 
+  
+form {
+    text-align: center;
+}
