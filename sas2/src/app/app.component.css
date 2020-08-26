@@ -1,0 +1,33 @@
+a {
+    color: inherit;
+    
+}
+
+.bg-custom {
+    background:#567ca9;
+}
+table ,th,tr,thead,tbody {
+border: 2px solid black;
+}
+
+table>thead>tr>th {
+    vertical-align: bottom;
+    border: 2px solid black;
+}
+
+thead {
+    background:#6990be;
+}
+
+table {
+  max-width: 95% !important;
+  margin:auto
+}
+
+
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
